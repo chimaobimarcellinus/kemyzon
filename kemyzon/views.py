@@ -16,3 +16,6 @@ def project(request):
 
 def home(request):
     return render(request, 'index-4.html')
+
+def services(request):
+    return render(request, 'services.html')
