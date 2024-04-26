@@ -12,3 +12,7 @@ def about(request):
 
 def project(request):
     return render(request, 'project.html')
+
+
+def home(request):
+    return render(request, 'index-4.html')
